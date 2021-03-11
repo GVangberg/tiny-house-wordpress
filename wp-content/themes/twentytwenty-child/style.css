@@ -1,0 +1,48 @@
+/*
+Theme Name:   Twentytwenty Child
+Description:  Twentytwenty Child Theme - Twentytwenty
+Author:   	Gabriella
+Template: 	twentytwenty
+Version:      1.0.0
+*/
+
+p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+/* Color of category tag in blog posts */
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+    color: #1b6b0d;
+}
+
+/* The size of the link in first blog post */
+.wp-block-file a:not(.wp-block-file__button) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.wp-block-column {
+    margin-bottom: 0;
+}
+
+div.wp-block-latest-posts__post-excerpt {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+label#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}

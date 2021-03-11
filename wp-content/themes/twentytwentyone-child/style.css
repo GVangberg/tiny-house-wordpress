@@ -1,0 +1,14 @@
+/*
+Theme Name:   Twentytwentyone Child Theme
+Description:  A child theme of the Twenty Twenty One default Wordpress theme
+Author:   	Gabriella
+Template: 	twentytwentyone
+Version:      1.0.0
+*/
+
+footer#colophon.site-footer {
+    margin-top: 0;
+}
+
+h2 {
+    color: black;
